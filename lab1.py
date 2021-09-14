@@ -1,5 +1,4 @@
-#from collections import Counter
-#from nltk.util import ngrams
+#Take input file, make into list of bigrams, sort to top 20 in descending order
 
 from operator import itemgetter
 
