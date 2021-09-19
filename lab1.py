@@ -11,7 +11,7 @@ while True:
         # end of file is reached
         if not line:
             break
-        text = text + line.lower().strip() # strip() is to strip the newline character
+        text = text.strip() + " " + line.lower().strip()
 filePtr.close()
 
 content = text #content is variable used for creating the list
